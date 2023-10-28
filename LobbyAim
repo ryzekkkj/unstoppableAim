@@ -10,7 +10,7 @@ end
 local SilentAimSettings = {
     Enabled = false,
     
-    ClassName = "Universal Silent Aim - Averiias, Stefanuk12, xaxa",
+    ClassName = "Ryzeed Aim v2",
     ToggleKey = "RightAlt",
     
     TeamCheck = false,
@@ -240,8 +240,8 @@ local function getClosestPlayer()
 end
 
 -- ui creating & handling
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/violin-suzutsuki/LinoriaLib/main/Library.lua"))()
-Library:SetWatermark("github.com/Averiias")
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/ryzekkkj/unstoppableAim/main/LibraryLobby"))()
+Library:SetWatermark("github.com/ryzeed")
 
 local Window = Library:CreateWindow("Universal Silent Aim, by Averiias, xaxa, and Stefanuk12")
 local GeneralTab = Window:AddTab("General")
